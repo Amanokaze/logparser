@@ -1,0 +1,445 @@
+1(838): KST @/ <:NUM:> LOG: received SIGHUP, reloading configuration files
+7(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM vmtableinfo WHERE ( tablename = 'vmhostinfo')
+8(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM vmtableinfo WHERE ( tablename = 'vmguestinfo')
+9(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM vmtableinfo WHERE ( tablename = 'vmhostgroupinfo')
+10(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM vmtableinfo WHERE ( tablename = 'vmhostcustominfocolumns')
+12(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM xentableinfo WHERE ( tablename = 'xenhostinfo')
+13(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM xentableinfo WHERE ( tablename = 'xenguestinfo')
+16(19): KST @/ <:NUM:> LOG: received fast shutdown request
+17(17): KST @/ <:NUM:> LOG: aborting any active transactions
+21(17): KST @/ <:NUM:> LOG: background worker "logical replication launcher" (PID <:NUM:>) exited with exit code <:NUM:>
+24(18): KST @/ <:NUM:> LOG: shutting down
+25(21): KST @/ <:NUM:> LOG: database system is shut down
+28(18): KST @/ <:NUM:> LOG: database system was shut down at <:NUM:>-<:NUM:>-<:NUM:> <:NUM:>:<:NUM:>:<:NUM:> KST
+29(19): KST @/ <:NUM:> LOG: database system is ready to accept connections
+31(4): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> STATEMENT: SELECT updatetime FROM eventtableinfo WHERE tablename = 'eventontuneinfo'
+32(5): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> STATEMENT: SELECT updatetime FROM eventtableinfo WHERE tablename = 'eventinfo'
+33(2): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> STATEMENT: SELECT updatetime FROM eventtableinfo WHERE tablename = 'signaliteminfo'
+34(1): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> STATEMENT: SELECT tablename, version FROM eventtableinfo
+36(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM tableinfo WHERE ( tablename = 'numanodeinfo')
+37(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT * FROM lastrealtimeperf WHERE agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:> OR agentid=<:NUM:>
+38(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>
+39(60): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+46(225): KST @/ <:NUM:> LOG: using stale statistics instead of current ones because stats collector is not responding
+50(6): KST @/ <:NUM:> LOG: database system was interrupted; last known up at <:NUM:>-<:NUM:>-<:NUM:> <:NUM:>:<:NUM:>:<:NUM:> KST
+52(105): KST @/ <:NUM:> LOG: CreateProcess call failed: A blocking operation was interrupted by a call to WSACancelBlockingCall.
+54(105): KST @/ <:NUM:> LOG: could not fork new process for connection: A blocking operation was interrupted by a call to WSACancelBlockingCall.
+55(2): KST @/ <:NUM:> LOG: database system was not properly shut down; automatic recovery in progress
+56(1): KST @/ <:NUM:> LOG: redo starts at 45FC/520C9098
+57(1): KST @/ <:NUM:> LOG: invalid record length at 45FC/714BA6F8: wanted <:NUM:>, got <:NUM:>
+58(1): KST @/ <:NUM:> LOG: redo done at 45FC/714BA6C0
+61(12): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> STATEMENT: SELECT * FROM eventinfo
+64(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT
+65(1): hostname
+66(1): , TO CHAR(to timestamp( ontunetime-<:NUM:>*<:NUM:>), 'YYYYMMDDHH24MISS') as ontunetime
+67(1): , round(( user/<:NUM:>.<:NUM:>),<:NUM:>) as user
+68(1): , round(( sys/<:NUM:>.<:NUM:>),<:NUM:>) as sys
+69(1): , wait
+70(1): , idle
+71(1): , avm
+72(1): , round( memoryused/<:NUM:>.<:NUM:>,<:NUM:>) as memoryused
+73(1): , '' AS filecache
+74(1): , round( swapused/<:NUM:>.<:NUM:>,<:NUM:>) as swapused
+75(1): , '' AS diskiorate
+76(1): , '' AS networkiorate
+77(1): , '' AS filesystem
+78(1): , round(( user/<:NUM:>),<:NUM:>) as cpu
+79(1): , round( memoryused/<:NUM:>,<:NUM:>) as mem
+80(1): avgperf-<:DATETIME:> A, HOSTINFO B
+81(1): A. AGENTID = B. AGENTID
+82(1): AND TO CHAR(to timestamp( ontunetime-<:NUM:>*<:NUM:>), 'YYYYMMDDHH24MISS') > TO CHAR(CURRENT TIMESTAMP - INTErVAL '<:NUM:> min' , 'yyyymmddhh24miss')
+86(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(procuserid-<:DATETIME:>, <:NUM:>) already exists.
+87(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists procuserid-<:DATETIME:>( id int, name text, primary key( id))
+89(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(procargid-<:DATETIME:>) already exists.
+90(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('procargid-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+92(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( id)=(<:NUM:>) already exists.
+93(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO procargid-<:DATETIME:> VALUES(<:NUM:>,'NULL')
+94(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimeperf-<:DATETIME:>, <:NUM:>) already exists.
+95(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimeperf-<:DATETIME:>( ontunetime int, agenttime int, agentid int, user int, sys int, wait int, idle int, processorcount int, runqueue int, blockqueue int, waitqueue int, pqueue int, pcrateuser int, pcratesys int, memorysize int, memoryused int, memorypinned int, memorysys int, memoryuser int, memorycache int, avm int, pagingspacein int, pagingspaceout int, filesystemin int, filesystemout int, memoryscan int, memoryfreed int, swapsize int, swapused int, swapactive int, fork int, exec int, interupt int, systemcall int, contextswitch int, semaphore int, msg int, diskreadwrite int, diskiops int, networkreadwrite int, networkiops int, topcommandid int, topcommandcount int, topuserid int, topcpu int, topdiskid int, topvgid int, topbusy int, maxpid int, threadcount int, pidcount int, linuxbuffer int, linuxcached int, linuxsrec int, memused mb int)
+96(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimeproc-<:DATETIME:>) already exists.
+97(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimeproc-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+99(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (relname, relnamespace)=(realtimeproc-<:DATETIME:> pkey, <:NUM:>) already exists.
+100(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimeproc-<:DATETIME:> pkey ON realtimeproc-<:DATETIME:>( agentid, ontunetime)
+101(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimeuserproc-<:DATETIME:>) already exists.
+102(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimeuserproc-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+104(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimeuserproc-<:DATETIME:> pkey ON realtimeuserproc-<:DATETIME:>( agentid, ontunetime)
+105(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimepid-<:DATETIME:>, <:NUM:>) already exists.
+106(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimepid-<:DATETIME:>( ontunetime int, agenttime int, agentid int, pid int, ppid int, uid int, cmdid int, userid int, argid int, usr int, sys int, usrsys int, sz int, rss int, vmem int, chario int, processcnt int, threadcnt int, handlecnt int, stime int, pvbytes int, pgpool int)
+107(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimedisk-<:DATETIME:>, <:NUM:>) already exists.
+108(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimedisk-<:DATETIME:>( ontunetime int, agenttime int, agentid int, ionameid int, readrate int, writerate int, iops int, busy int, descid int, readsvctime int, writesvctime int)
+109(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimenet-<:DATETIME:>) already exists.
+110(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimenet-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+112(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimenet-<:DATETIME:> pkey ON realtimenet-<:DATETIME:>( agentid, ontunetime)
+113(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimeadpt-<:DATETIME:>) already exists.
+114(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimeadpt-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+115(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (relname, relnamespace)=(realtimeadpt-<:DATETIME:> pkey, <:NUM:>) already exists.
+116(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimeadpt-<:DATETIME:> pkey ON realtimeadpt-<:DATETIME:>( agentid, ontunetime)
+117(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimelv-<:DATETIME:>) already exists.
+118(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimelv-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+119(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (relname, relnamespace)=(realtimelv-<:DATETIME:> pkey, <:NUM:>) already exists.
+120(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimelv-<:DATETIME:> pkey ON realtimelv-<:DATETIME:>( agentid, ontunetime)
+121(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimevg-<:DATETIME:>) already exists.
+122(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimevg-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+123(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (relname, relnamespace)=(realtimevg-<:DATETIME:> pkey, <:NUM:>) already exists.
+124(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimevg-<:DATETIME:> pkey ON realtimevg-<:DATETIME:>( agentid, ontunetime)
+125(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimecpu-<:DATETIME:>, <:NUM:>) already exists.
+126(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimecpu-<:DATETIME:>( ontunetime int, agenttime int, agentid int, index int, user int, sys int, wait int, idle int, runqueue int, fork int, exec int, interupt int, systemcall int, contextswitch int)
+127(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimemempool-<:DATETIME:>, <:NUM:>) already exists.
+128(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimemempool-<:DATETIME:>( ontunetime int, agenttime int, agentid int, delta int, realtotal0 int, realtotal1 int, realtotal2 int, realtotal3 int, realfree0 int, realfree1 int, realfree2 int, realfree3 int, numperm0 int, numperm1 int, numperm2 int, numperm3 int)
+129(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimevperf-<:DATETIME:>, <:NUM:>) already exists.
+130(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimevperf-<:DATETIME:>( ontunetime int, agenttime int, agentid int, user int, sys int, wait int, idle int, ec int, pc int, app int, pcrate int, poolid int, poolcpucount int, entitledcapacity int, vp int, pmem int, hpi int, onlinemem int, loan int, cpucount int, hostid text, serial text)
+131(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgperf-<:DATETIME:>, <:NUM:>) already exists.
+132(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgperf-<:DATETIME:>( ontunetime int, agenttime int, agentid int, user int, sys int, wait int, idle int, processorcount int, runqueue int, blockqueue int, waitqueue int, pqueue int, pcrateuser int, pcratesys int, memorysize int, memoryused int, memorypinned int, memorysys int, memoryuser int, memorycache int, avm int, pagingspacein int, pagingspaceout int, filesystemin int, filesystemout int, memoryscan int, memoryfreed int, swapsize int, swapused int, swapactive int, fork int, exec int, interupt int, systemcall int, contextswitch int, semaphore int, msg int, diskreadwrite int, diskiops int, networkreadwrite int, networkiops int, topcommandid int, topcommandcount int, topuserid int, topcpu int, topdiskid int, topvgid int, topbusy int, maxpid int, threadcount int, pidcount int, linuxbuffer int, linuxcached int, linuxsrec int, memused mb int)
+133(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgproc-<:DATETIME:>, <:NUM:>) already exists.
+134(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgproc-<:DATETIME:>( ontunetime int, agenttime int, agentid int, cmdid int, userid int, usr int, sys int, usrsys int, sz int, rss int, vmem int, chario int, processcnt int, threadcnt int, pvbytes int, pgpool int)
+135(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avguserproc-<:DATETIME:>, <:NUM:>) already exists.
+136(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avguserproc-<:DATETIME:>( ontunetime int, agenttime int, agentid int, userid int, usr int, sys int, usrsys int, sz int, rss int, vmem int, chario int, processcnt int, threadcnt int)
+137(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(avgpid-<:DATETIME:>) already exists.
+138(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('avgpid-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+139(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (relname, relnamespace)=(avgpid-<:DATETIME:> pkey, <:NUM:>) already exists.
+140(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index avgpid-<:DATETIME:> pkey ON avgpid-<:DATETIME:>( agentid, ontunetime)
+141(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgdisk-<:DATETIME:>, <:NUM:>) already exists.
+142(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgdisk-<:DATETIME:>( ontunetime int, agenttime int, agentid int, ionameid int, readrate int, writerate int, iops int, busy int, descid int, readsvctime int, writesvctime int)
+143(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgnet-<:DATETIME:>, <:NUM:>) already exists.
+145(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgadpt-<:DATETIME:>, <:NUM:>) already exists.
+146(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgadpt-<:DATETIME:>( ontunetime int, agenttime int, agentid int, ionameid int, readrate int, writerate int, iops int)
+147(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avglv-<:DATETIME:>, <:NUM:>) already exists.
+148(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avglv-<:DATETIME:>( ontunetime int, agenttime int, agentid int, ionameid int, descid int, readrate int, writerate int, readiops int, writeiops int, readtime int, writetime int)
+149(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgvg-<:DATETIME:>, <:NUM:>) already exists.
+150(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgvg-<:DATETIME:>( ontunetime int, agenttime int, agentid int, ionameid int, readrate int, writerate int, iops int, busy int)
+151(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgcpu-<:DATETIME:>, <:NUM:>) already exists.
+152(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgcpu-<:DATETIME:>( ontunetime int, agenttime int, agentid int, index int, user int, sys int, wait int, idle int, runqueue int, fork int, exec int, interupt int, systemcall int, contextswitch int)
+153(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgmempool-<:DATETIME:>, <:NUM:>) already exists.
+154(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgmempool-<:DATETIME:>( ontunetime int, agenttime int, agentid int, delta int, realtotal0 int, realtotal1 int, realtotal2 int, realtotal3 int, realfree0 int, realfree1 int, realfree2 int, realfree3 int, numperm0 int, numperm1 int, numperm2 int, numperm3 int)
+155(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(scriptresult-<:DATETIME:>) already exists.
+156(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('scriptresult-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+158(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index scriptresult-<:DATETIME:> pkey ON scriptresult-<:DATETIME:>( agentid, ontunetime, scriptname)
+159(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(lan-<:DATETIME:>, <:NUM:>) already exists.
+160(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists lan-<:DATETIME:>( ontunetime int, agenttime int, agentid int, device varchar(<:NUM:>), state text, running text, selected text)
+161(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgdf-<:DATETIME:>, <:NUM:>) already exists.
+162(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgdf-<:DATETIME:>( ontunetime int, agenttime int, agentid int, dfnameid int, totalsize bigint, usage int, freesize bigint, iusage int, lvnameid int)
+163(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgvperf-<:DATETIME:>, <:NUM:>) already exists.
+164(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgvperf-<:DATETIME:>( ontunetime int, agenttime int, agentid int, user int, sys int, wait int, idle int, ec int, pc int, app int, pcrate int, poolid int, poolcpucount int, entitledcapacity int, vp int, pmem int, hpi int, onlinemem int, loan int, cpucount int, hostid text, serial text)
+165(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgmaxvperf-<:DATETIME:>, <:NUM:>) already exists.
+166(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgmaxvperf-<:DATETIME:>( ontunetime int, agenttime int, agentid int, ec int, pc int, pcrate int)
+167(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgmaxperf-<:DATETIME:>, <:NUM:>) already exists.
+168(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgmaxperf-<:DATETIME:>( ontunetime int, agenttime int, agentid int, user int, sys int, wait int, idle int, processorcount int, runqueue int, blockqueue int, waitqueue int, pqueue int, pcrateuser int, pcratesys int, memorysize int, memoryused int, memorypinned int, memorysys int, memoryuser int, memorycache int, avm int, pagingspacein int, pagingspaceout int, filesystemin int, filesystemout int, memoryscan int, memoryfreed int, swapsize int, swapused int, swapactive int, fork int, exec int, interupt int, systemcall int, contextswitch int, semaphore int, msg int, diskreadwrite int, diskiops int, networkreadwrite int, networkiops int, topcommandid int, topcommandcount int, topuserid int, topcpu int, topdiskid int, topvgid int, topbusy int, usersys int, usersyswait int, resv1 int, resv2 int)
+169(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(wmiresult-<:DATETIME:>, <:NUM:>) already exists.
+170(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists wmiresult-<:DATETIME:>( ontunetime int, agenttime int, agentid int, name varchar(<:NUM:>), class varchar(<:NUM:>), item varchar(<:NUM:>), value text)
+171(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimegpu-<:DATETIME:>) already exists.
+172(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimegpu-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+174(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimegpu-<:DATETIME:> pkey ON realtimegpu-<:DATETIME:>( agentid, ontunetime)
+175(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avggpu-<:DATETIME:>, <:NUM:>) already exists.
+176(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avggpu-<:DATETIME:>( ontunetime int, agenttime int, agentid int, name varchar(<:NUM:>), state varchar(<:NUM:>), temp int, gpuusage int, memusage int, memused int, memtotal int, grclocks int, smclocks int, memclocks int, videoclocks int, appgrclocks int, appmemclocks int, powermng varchar(<:NUM:>), powercurr int, powerlimit int, powerenforced int, serial varchar(<:NUM:>), uuid varchar(<:NUM:>), pcibusid varchar(<:NUM:>))
+177(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimegpuperf-<:DATETIME:>, <:NUM:>) already exists.
+178(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimegpuperf-<:DATETIME:>(ontunetime int,agenttime int,agentid int,gpuusage int,memusage int,temp int,powercurr int,count int)
+179(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avggpuperf-<:DATETIME:>, <:NUM:>) already exists.
+180(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avggpuperf-<:DATETIME:>(ontunetime int,agenttime int,agentid int,gpuusage int,memusage int,temp int,powercurr int,count int)
+181(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimegpupid-<:DATETIME:>, <:NUM:>) already exists.
+182(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists realtimegpupid-<:DATETIME:>(ontunetime int,agenttime int,agentid int,pid int,type varchar(<:NUM:>),cmdid int,gpuid int,gpuusage int,memusage int,memused int,enc int,dec int, primary key(agentid,ontunetime,pid))
+183(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avggpupid-<:DATETIME:>, <:NUM:>) already exists.
+184(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avggpupid-<:DATETIME:>(ontunetime int,agenttime int,agentid int,pid int,type varchar(<:NUM:>),cmdid int,gpuid int,gpuusage int,memusage int,memused int,enc int,dec int, primary key(agentid,ontunetime,pid))
+185(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimenumamem-<:DATETIME:>) already exists.
+186(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimenumamem-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+187(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (relname, relnamespace)=(realtimenumamem-<:DATETIME:> pkey, <:NUM:>) already exists.
+188(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimenumamem-<:DATETIME:> pkey ON realtimenumamem-<:DATETIME:>(agentid,nodeindex,ontunetime)
+189(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgnumamem-<:DATETIME:>, <:NUM:>) already exists.
+190(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgnumamem-<:DATETIME:>(ontunetime int,agenttime int,agentid int,nodeindex int,memused int,memfree int,memtotalsize int,cpu-<:DATETIME:> bigint,cpu-<:DATETIME:> bigint,cpu-<:DATETIME:> bigint,cpu-<:DATETIME:> bigint,cpu-<:DATETIME:> bigint,mem tot kb bigint,mem used kb bigint,hit total bigint,hit delta bigint,miss total bigint,miss delta bigint,foreign total bigint,foreign delta bigint,interleave total bigint,interleave delta bigint,local total bigint,local delta bigint,remote total bigint,remote delta bigint)
+191(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgcpuclock-<:DATETIME:>, <:NUM:>) already exists.
+192(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists avgcpuclock-<:DATETIME:>(ontunetime int,agenttime int,agentid int,cpuclock int)
+193(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(asmdiskgroupperf-<:DATETIME:>, <:NUM:>) already exists.
+194(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists asmdiskgroupperf-<:DATETIME:>( asmname varchar(<:NUM:>), groupname varchar(<:NUM:>), ontunetime int, total mb int, free mb int, hot used mb int, cold used mb int, required mirror free mb int, usable file mb int, offline disks int, min disk usage int, max disk usage int, primary key( asmname, groupname, ontunetime))
+195(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(asmdiskperf-<:DATETIME:>, <:NUM:>) already exists.
+196(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists asmdiskperf-<:DATETIME:>( asmname varchar(<:NUM:>), groupname varchar(<:NUM:>), diskname varchar(<:NUM:>), ontunetime int, os mb int, total mb int, free mb int, hot used mb int, cold used mb int, primary key( asmname, groupname, diskname, ontunetime))
+197(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(dockerinfo-<:DATETIME:>, <:NUM:>) already exists.
+198(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists dockerinfo-<:DATETIME:>(ontunetime int,agenttime int,agentid int,containerid text,createdtime int,path text,pid int,startedtime int,finishedtime int,name text,image text,volumes text,ports text,envversion text,version text)
+199(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(realtimedockerperf-<:DATETIME:>, <:NUM:>) already exists.
+201(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(avgdockerperf-<:DATETIME:>, <:NUM:>) already exists.
+203(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(cimmonitorinfo-<:DATETIME:>, <:NUM:>) already exists.
+204(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists cimmonitorinfo-<:DATETIME:>( ontunetime int NOT null, logtime timestamp NOT null, agentid int NOT null, eqpid text NOT null, ceid text NOT null, cellid text NOT null, eventtype int NOT null, json text NOT null, primary key( eqpid, ceid, cellid, eventtype, logtime, ontunetime))
+205(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key (typname, typnamespace)=(netstat-<:DATETIME:>, <:NUM:>) already exists.
+206(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE table if NOT exists netstat-<:DATETIME:>(ontunetime int,hostname text,ndata0 int,ndata1 int,ndata2 int,ndata3 int,ndata4 int)
+207(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimedisk-<:DATETIME:>) already exists.
+208(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimedisk-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+210(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimedisk-<:DATETIME:> pkey ON realtimedisk-<:DATETIME:>( agentid, ontunetime)
+214(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimecpu-<:DATETIME:>) already exists.
+215(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimecpu-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+217(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimecpu-<:DATETIME:> pkey ON realtimecpu-<:DATETIME:>( agentid, ontunetime)
+218(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimemempool-<:DATETIME:>) already exists.
+219(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimemempool-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+221(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimemempool-<:DATETIME:> pkey ON realtimemempool-<:DATETIME:>( agentid, ontunetime)
+222(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimevperf-<:DATETIME:>) already exists.
+223(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimevperf-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+225(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: CREATE index realtimevperf-<:DATETIME:> pkey ON realtimevperf-<:DATETIME:>( agentid, ontunetime)
+226(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimegpuperf-<:DATETIME:>) already exists.
+227(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimegpuperf-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+228(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimegpupid-<:DATETIME:>) already exists.
+229(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimegpupid-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+231(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: Key ( tablename)=(realtimedockerperf-<:DATETIME:>) already exists.
+232(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO tableinfo VALUES('realtimedockerperf-<:DATETIME:>',<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>)
+234(6): KST @/ <:NUM:> LOG: could not open file "postmaster.pid": No such file or directory
+235(3): KST @/ <:NUM:> LOG: performing immediate shutdown because data directory lock file is invalid
+236(3): KST @/ <:NUM:> LOG: received immediate shutdown request
+237(1): KST ontune@::<:NUM:>(<:NUM:>)/ontune <:NUM:> WARNING: terminating connection because of crash of another server process
+238(1): KST ontune@::<:NUM:>(<:NUM:>)/ontune <:NUM:> DETAIL: The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+239(1): KST ontune@::<:NUM:>(<:NUM:>)/ontune <:NUM:> HINT: In a moment you should be able to reconnect to the database and repeat your command.
+240(51): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> WARNING: terminating connection because of crash of another server process
+241(51): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> DETAIL: The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+242(51): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> HINT: In a moment you should be able to reconnect to the database and repeat your command.
+243(38): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> WARNING: terminating connection because of crash of another server process
+244(38): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> DETAIL: The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+245(38): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> HINT: In a moment you should be able to reconnect to the database and repeat your command.
+246(1): KST @/ <:NUM:> WARNING: terminating connection because of crash of another server process
+247(1): KST @/ <:NUM:> DETAIL: The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+248(1): KST @/ <:NUM:> HINT: In a moment you should be able to reconnect to the database and repeat your command.
+251(1): -------------------------------------------------------------------------------------------------------------------------------------------
+252(1): KST @/ <:NUM:> LOG: redo starts at 45FD/C9063F10
+253(1): KST @/ <:NUM:> LOG: invalid record length at 45FD/F5CF62E0: wanted <:NUM:>, got <:NUM:>
+254(1): KST @/ <:NUM:> LOG: redo done at 45FD/F5CF62A8
+258(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+259(58): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+261(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+262(63): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+264(366): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+265(59): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+266(57): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+268(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+269(11): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+271(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+272(6): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+274(48): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+275(8): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+277(50): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+278(19): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+279(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimemempool-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"","""
+280(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimemempool-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+282(6): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+283(16): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+284(52): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+285(61): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+286(21): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+287(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+289(48): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+290(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+291(79): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+292(15): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+293(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+294(10): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+295(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"","""
+296(21): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+297(15): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+298(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+300(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+301(36): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+302(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+304(29): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+305(22): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+306(25): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+307(25): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+308(23): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+309(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+310(17): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+311(33): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+312(13): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+314(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+315(11): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+316(27): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+317(24): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+319(30): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+321(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+322(19): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+324(32): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+325(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+327(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+329(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+330(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+331(24): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+332(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+333(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+335(61): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+336(49): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+337(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+338(27): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+339(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+340(11): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+341(7): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+342(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+344(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+345(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+346(45): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+348(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+349(11): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+350(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+351(10): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+352(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+353(22): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+355(31): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+356(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+357(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+359(10): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+360(14): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+361(14): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+363(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+364(19): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+365(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"","""
+366(9): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+367(8): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+368(7): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+370(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>"
+371(29): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+372(10): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+374(28): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+375(15): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+377(25): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+378(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+379(18): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+380(16): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+381(15): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+382(8): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+383(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+384(9): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+386(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimemempool-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+387(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimemempool-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+388(7): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimelv-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+389(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+390(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>"
+391(9): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimedisk-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+392(20): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimenet-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+393(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+394(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+395(16): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+396(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"","""
+397(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+399(10): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+401(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>"
+402(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+404(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+405(13): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimelv-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+406(8): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+407(16): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+408(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+409(15): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+410(6): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+411(24): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimelv-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+412(7): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+414(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>"
+415(26): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+416(9): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+417(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+418(11): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+419(12): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+420(16): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevg-<:DATETIME:> FROM 'D:\onTune\Data\InsertData0 <:NUM:>.txt' csv delimiter ','
+422(10): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+423(22): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+424(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+426(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimemempool-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+427(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimemempool-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+428(6): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+429(9): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+431(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+432(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+434(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+436(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+437(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"","""
+438(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>"
+439(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData2 <:NUM:>.txt' csv delimiter ','
+440(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+441(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+442(7): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+443(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>"
+444(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+446(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+447(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,"
+448(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+449(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>"
+450(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>"
+452(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>, column pvbytes: ""
+454(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+455(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+456(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+457(8): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeadpt-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+458(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+459(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,"
+460(6): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimecpu-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+461(13): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimepid-<:DATETIME:> FROM 'D:\onTune\Data\InsertData6 <:NUM:>.txt' csv delimiter ','
+462(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+464(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimenet-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+465(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+466(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+468(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+470(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+471(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+472(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+473(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>"
+475(14): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+476(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"","""
+478(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimelv-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+480(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimepid-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+481(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+482(5): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimeuserproc-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+483(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimemempool-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+484(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+486(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimemempool-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+487(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimemempool-<:DATETIME:> FROM 'D:\onTune\Data\InsertData3 <:NUM:>.txt' csv delimiter ','
+488(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+489(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+491(3): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+492(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+493(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>"
+494(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+496(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+497(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+498(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+500(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+501(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>"
+502(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+503(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimelv-<:DATETIME:> FROM 'D:\onTune\Data\InsertData7 <:NUM:>.txt' csv delimiter ','
+504(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+505(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimemempool-<:DATETIME:> FROM 'D:\onTune\Data\InsertData5 <:NUM:>.txt' csv delimiter ','
+506(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+508(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+509(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+510(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimemempool-<:DATETIME:> FROM 'D:\onTune\Data\InsertData4 <:NUM:>.txt' csv delimiter ','
+512(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+513(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimevperf-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+514(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+516(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: ",<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+517(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimelv-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"","""
+518(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>"
+519(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimedisk-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+520(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>..."
+521(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+523(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimemempool-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+525(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeperf-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+526(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+527(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+528(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,"
+530(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimecpu-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+532(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>"
+533(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: copy realtimemempool-<:DATETIME:> FROM 'D:\onTune\Data\InsertData1 <:NUM:>.txt' csv delimiter ','
+534(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimevg-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>"
+535(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeadpt-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>"
+536(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> CONTEXT: COPY realtimeuserproc-<:DATETIME:>, line <:NUM:>: "<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,<:NUM:>,..."
+538(4): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: INSERT INTO ontuneloginfo (SELECT max( id) + <:NUM:>, <:NUM:>, <:NUM:>, <:NUM:>, 'Agent is disconnected (<:IP:>)' FROM ontuneloginfo)
+550(2): KST @/ <:NUM:> CONTEXT: automatic vacuum of table "onTuneEvent.public.eventinfo"
+553(8): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> DETAIL: Key ( op)=(Event Item) already exists.
+554(8): KST ontune@<:IP:>(<:NUM:>)/onTuneEvent <:NUM:> STATEMENT: INSERT INTO eventlockinfo values ((SELECT time FROM teemeventinfo), $<:NUM:> , $<:NUM:> , $<:NUM:> )
+556(13): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT ontunetime,proccmd-<:DATETIME:>. name,procuserid-<:DATETIME:>. name, usrsys, usr, sys, rss, pvbytes, pgpool, vmem, chario, threadcnt, processcnt FROM proccmd-<:DATETIME:>,procuserid-<:DATETIME:>,realtimeproc-<:DATETIME:> WHERE ( ontunetime >= <:NUM:>) AND ( ontunetime <= <:NUM:>) AND ( agentid=<:NUM:>) AND (proccmd-<:DATETIME:>. id=realtimeproc-<:DATETIME:>. cmdid) AND (procuserid-<:DATETIME:>. id=realtimeproc-<:DATETIME:>. userid) ORDER BY ontunetime
+557(2): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: SELECT ontunetime,proccmd-<:DATETIME:>. name,procuserid-<:DATETIME:>. name, usrsys, usr, sys, rss, pvbytes, pgpool, vmem, chario, threadcnt, processcnt FROM proccmd-<:DATETIME:>,procuserid-<:DATETIME:>,avgproc-<:DATETIME:> WHERE ( ontunetime >= <:NUM:>) AND ( ontunetime <= <:NUM:>) AND ( agentid=<:NUM:>) AND (proccmd-<:DATETIME:>. id=avgproc-<:DATETIME:>. cmdid) AND (procuserid-<:DATETIME:>. id=avgproc-<:DATETIME:>. userid) ORDER BY ontunetime
+558(7): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> LOG: using stale statistics instead of current ones because stats collector is not responding
+559(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: vacuum freeze analyze pg toast.pg toast-<:DATETIME:>
+560(2): KST @/ <:NUM:> CONTEXT: automatic vacuum of table "onTuneEvent.public.eventontuneinfo"
+561(20): KST @/ <:NUM:> LOG: could not rename temporary statistics file "pg stat tmp/global.tmp" to "pg stat tmp/global.stat": Permission denied
+562(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: vacuum freeze analyze public.avgvg-<:DATETIME:>
+563(1): KST @/ <:NUM:> CONTEXT: automatic analyze of table "ontune.public.lastrealtimeperf"
+564(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: vacuum freeze analyze public.avgpid-<:DATETIME:>
+565(2): KST @/ <:NUM:> CONTEXT: automatic vacuum of table "ontune.public.ontuneinfo"
+566(1): KST @/ <:NUM:> CONTEXT: automatic analyze of table "ontune.public.lastperf"
+567(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: vacuum freeze analyze public.avglv-<:DATETIME:>
+568(2): KST @/ <:NUM:> CONTEXT: automatic vacuum of table "onTuneEvent.public.teemeventinfo"
+569(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: vacuum freeze analyze public.avgnet-<:DATETIME:>
+570(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: vacuum freeze analyze public.procuserid-<:DATETIME:>
+571(1): KST ontune@<:IP:>(<:NUM:>)/ontune <:NUM:> STATEMENT: vacuum freeze analyze public.proccmd-<:DATETIME:>
+573(2): KST ontune@<:IP:>(<:NUM:>)/postgres <:NUM:> HINT: No function matches the given name and argument types. You might need to add explicit type casts.
+574(2): KST ontune@<:IP:>(<:NUM:>)/postgres <:NUM:> STATEMENT: SELECT usecreatedb, usesuper, CASE WHEN usesuper THEN pg postmaster start time() ELSE NULL END as upsince, CASE WHEN usesuper THEN pg conf load time() ELSE NULL END as confloadedsince, CASE WHEN usesuper THEN pg is in recovery() ELSE NULL END as inrecovery, CASE WHEN usesuper THEN pg last xlog receive location() ELSE NULL END as receiveloc, CASE WHEN usesuper THEN pg last xlog replay location() ELSE NULL END as replayloc, CASE WHEN usesuper THEN pg last xact replay timestamp() ELSE NULL END as replay timestamp, CASE WHEN usesuper AND pg is in recovery() THEN pg is xlog replay paused() ELSE NULL END as isreplaypaused
+575(2): FROM pg user WHERE usename=current user

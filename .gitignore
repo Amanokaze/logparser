@@ -1,0 +1,11 @@
+.venv/
+windows_event_log/
+**/__pycache__/
+.log
+**/*.log
+offset/
+training/
+inference/
+report/
+config/Setting.yaml
+*.bat

@@ -1,0 +1,83 @@
+common:
+  interval: 1
+  minimum-length: 10
+  mode: training
+  report: true
+  initial-check: true
+  similarity-threshold: 1
+  depth: 3
+  compress-state: false
+  parametrize-numeric-tokens: false
+
+data:
+  # - monitoring:
+  #     source: 'D:\workspace\onTuneLogParser\output\training\ontunemanager_log.bin'
+  #     directory: 'D:\workspace\onTuneLogParser\output\training_text'
+  #     pattern: none
+  #     file: ontunemanager
+  #     extension: txt
+  #     date-time-format: '[yyyy-MM-dd HH:mm:ss]'
+  #   name: ontunemanager
+  #   type: recursive
+  #   snapshot-file: ontunemanager_recursive_1.bin
+  #   mode: training
+
+  - monitoring:
+      source: 'D:\workspace\onTuneLogParser\output\training\jeju_postgresql.bin'
+      directory: 'D:\workspace\onTuneLogParser\output\training_text'
+      pattern: none
+      file: postgresql
+      extension: txt
+      date-time-format: '[yyyy-MM-dd HH:mm:ss]'
+    name: postgresql
+    type: recursive
+    snapshot-file: pg_recursive_1.bin
+    mode: training
+
+  # - monitoring:
+  #     source: 'D:\workspace\onTuneLogParser\output\training\ontuneevent_log.bin'
+  #     directory: 'D:\workspace\onTuneLogParser\output\training_text'
+  #     pattern: none
+  #     file: ontuneevent
+  #     extension: txt
+  #     date-time-format: '[yyyy-MM-dd HH:mm:ss]'
+  #   name: ontuneevent
+  #   type: recursive
+  #   snapshot-file: ontuneevent_recursive_1.bin
+  #   mode: training
+
+  # - monitoring:
+  #     source: 'D:\workspace\onTuneLogParser\output\training\ontuneevent_noti_log.bin'
+  #     directory: 'D:\workspace\onTuneLogParser\output\training_text'
+  #     pattern: none
+  #     file: ontuneeventnoti
+  #     extension: txt
+  #     date-time-format: '[yyyy-MM-dd HH:mm:ss]'
+  #   name: ontuneeventnoti
+  #   type: recursive
+  #   snapshot-file: ontuneeventnoti_recursive_1.bin
+  #   mode: training
+
+  # - monitoring:
+  #     source: 'D:\workspace\onTuneLogParser\output\training\ontuneevent_status_log.bin'
+  #     directory: 'D:\workspace\onTuneLogParser\output\training_text'
+  #     pattern: none
+  #     file: ontuneeventstatus
+  #     extension: txt
+  #     date-time-format: '[yyyy-MM-dd HH:mm:ss]'
+  #   name: ontuneeventstatus
+  #   type: recursive
+  #   snapshot-file: ontuneeventstatus_recursive_1.bin
+  #   mode: training
+
+  - monitoring:
+      source: 'D:\workspace\onTuneLogParser\output\training\ontuneevent_viewer_log.bin'
+      directory: 'D:\workspace\onTuneLogParser\output\training_text'
+      pattern: none
+      file: ontuneeventviewer
+      extension: txt
+      date-time-format: '[yyyy-MM-dd HH:mm:ss]'
+    name: ontuneeventviewer
+    type: recursive
+    snapshot-file: ontuneeventviewer_recursive_1.bin
+    mode: training

@@ -1,0 +1,22 @@
+[OTEMM10I] Update EventItemInfo
+현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.
+[OTEMM01I] onTuneEvent v4.<:NUM:>.<:NUM:>.<:NUM:> is started
+[OTEMM02C] LimitMemUsagePercent=<:NUM:>
+[OTEMM03C] PortScan:ForceClose=<:NUM:>
+[OTEMD04I] onTune Event DB (onTuneEvent,<:IP:>,<:NUM:>) connected
+[OTEMC02I] onTune Manager(onTuneMaster) created
+[OTEMC05I] onTune Manager DB (onTuneMaster,ontune,<:IP:>,<:NUM:>) connected
+[OTEMD02I] LastEventID:<:NUM:>
+[OTEMC17C] [Config] OnTuneEventClient BufSize: <:NUM:>(MB)
+[OTEMC18I] onTune Manager (onTuneMaster,<:IP:>,<:NUM:>) connected
+대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다.
+[OTEMM04I] onTuneEvent is terminating
+[OTEMM05I] Packet Datas are cleared.
+[OTEMM06I] Event Objects are cleared.
+[OTEMM08I] onTuneEvent is terminated
+[OTEMC01W] onTune Manager (onTuneMaster,<:IP:>,<:NUM:>) timeout
+[OTEMC24I] onTune Manager (onTuneMaster,<:IP:>,<:NUM:>) disconnected
+[OTEMC03I] onTune Manager(onTuneMaster) destroyed
+[OTEMA10W] Bulk Log Events From dbsvr02 (Count : <:NUM:>)
+[OTEMA02I] Skip Log Events From dbsvr02 (SkipCount: <:NUM:>,Count: <:NUM:>)
+[OTEMA04I] pbwasv1a Process Pattern mismatch: init|systemd|/opt/VRTSvcs/bin/had|/opt/VRTSvcs/bin/hashadow|/prod ha/ctrm/jflow/pgsql/data|/usr/local/avamar/bin/avagent.bin|/usr/local/redcastle/sbin/rclogd|/usr/local/redcastle/sbin/sosd|/usr/sbin/chronyd|CtmCe|DbwaAdm11|DbwaSchSvr|DbwaSchSvr11|gtw|jFlow4.<:NUM:> Comm|jFlow4.<:NUM:> Daemon|p ctmsu : init|systemd|/opt/VRTSvcs/bin/had|/opt/VRTSvcs/bin/hashadow|/prod ha/ctrm/jflow/pgsql/data'|/usr/local/avamar/bin/avagent.bin|/usr/local/redcastle/sbin/rclogd|/usr/local/redcastle/sbin/sosd|/usr/sbin/chronyd|CtmCe|DbwaAdm11|DbwaSchSvr|DbwaSchSvr11|gtw|jFlow4.<:NUM:> Comm|jFlow4.<:NUM:> Daemon|p ctmsu

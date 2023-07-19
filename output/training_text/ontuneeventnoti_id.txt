@@ -1,0 +1,255 @@
+1(253): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap2a-DeaiOnlSvr22:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+2(256): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap2a-DeaiOnlSvr23:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+3(262): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap2a-DeaiMgrSvr21:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+4(532): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbakdb1a-/oralog(Usage:<:NUM:>%)" <:NUM:>
+5(532): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbakdb1a-/oralog(Usage:<:NUM:>%) Cleared" <:NUM:>
+6(56): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+7(35): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+8(49): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+9(49): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+11(106): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjrsup1a-httpd:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+12(39): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pfepap1a-/logs(Usage:<:NUM:>%)" <:NUM:>
+13(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pfepap1a-/logs(Usage:<:NUM:>%) Cleared" <:NUM:>
+15(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pfepap1a-DfepBapSvr11:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+17(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-/opt(Usage:<:NUM:>%)" <:NUM:>
+18(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-/opt/vormetric/DataSecurityExpert/agent/secfs/.sec(Usage:<:NUM:>%)" <:NUM:>
+19(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-/opt(Usage:<:NUM:>%) Cleared" <:NUM:>
+20(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-/opt/vormetric/DataSecurityExpert/agent/secfs/.sec(Usage:<:NUM:>%) Cleared" <:NUM:>
+21(224): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "ivr1-/oraback(Usage:<:NUM:>%)" <:NUM:>
+22(224): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "ivr1-/oraback(Usage:<:NUM:>%) Cleared" <:NUM:>
+30(62): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pmciap1a-DmciOnlSvr11:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+31(249): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap1a-DeaiOnlSvr11:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+32(249): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap1a-DeaiOnlSvr12:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+33(249): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap1a-DeaiOnlSvr13:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+34(62): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pmciap1a-DmciOnlSvr12:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+35(249): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap1a-DeaiMgrSvr11:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+37(62): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pmciap1a-DmciMgrSvr11:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+43(249): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "peaiap2a-DeaiOnlSvr21:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+44(62): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pmciap2a-DmciOnlSvr21:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+45(62): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pmciap2a-DmciOnlSvr22:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+47(79): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjebap2a-gc inbank2:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+52(227): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "JEJUUTM-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+54(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pscmap1a-ecamsjv:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+55(57): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "JEJUUTM-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+57(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dsacsv1a-psm-sys-relay:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+59(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dsacsv1a-mariadb/bin/mysqld:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+60(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+61(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+64(270): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pacldb1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+65(92): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pacldb1a-/dat(Usage:<:NUM:>%)" <:NUM:>
+66(80): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pacldb1a-/dat(Usage:<:NUM:>%) Cleared" <:NUM:>
+67(104): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbatap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+68(200): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "texadb1a.jejubank.co.kr-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+69(116): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "texadb1a.jejubank.co.kr-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+70(37): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+71(37): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+73(56): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-oninit:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+74(55): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-<:NUM:>-<:NUM:>: (<:NUM:>.<:NUM:> ) Check Longtx Session Check Longtx Session" <:NUM:>
+75(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "MNGServer2-/tmp/<:NUM:>.mnt0(Usage:<:NUM:>%)" <:NUM:>
+76(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "nimsvr-/nim backup2(Usage:<:NUM:>%)" <:NUM:>
+77(35): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "texadb1a.jejubank.co.kr-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+78(21): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "texadb1a.jejubank.co.kr-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+79(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "nimsvr-/nim backup2(Usage:<:NUM:>%) Cleared" <:NUM:>
+110(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+111(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+112(929): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pexadb1a.jejubank.co.kr-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+113(692): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pexadb1a.jejubank.co.kr-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+114(706): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "JJB1-<:NUM:>-<:NUM:>-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+115(250): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "JJB1-<:NUM:>-<:NUM:>-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+124(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/alm(Usage:<:NUM:>%)" <:NUM:>
+125(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/CRR DATA(Usage:<:NUM:>%)" <:NUM:>
+126(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/RPS DATA(Usage:<:NUM:>%)" <:NUM:>
+127(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/BA2(Usage:<:NUM:>%)" <:NUM:>
+128(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/WISEDB(Usage:<:NUM:>%)" <:NUM:>
+129(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEWZIP(Usage:<:NUM:>%)" <:NUM:>
+130(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS(Usage:<:NUM:>%)" <:NUM:>
+131(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/ISA DATA(Usage:<:NUM:>%)" <:NUM:>
+132(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/ALM(Usage:<:NUM:>%)" <:NUM:>
+133(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS INDX(Usage:<:NUM:>%)" <:NUM:>
+134(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS DATA(Usage:<:NUM:>%)" <:NUM:>
+135(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/TRPS DATA(Usage:<:NUM:>%)" <:NUM:>
+136(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/TRPS INDX(Usage:<:NUM:>%)" <:NUM:>
+137(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/EHR(Usage:<:NUM:>%)" <:NUM:>
+138(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/HOME DATA(Usage:<:NUM:>%)" <:NUM:>
+139(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/FATCA(Usage:<:NUM:>%)" <:NUM:>
+140(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/UCSODATA1(Usage:<:NUM:>%)" <:NUM:>
+141(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/UCSODATA2(Usage:<:NUM:>%)" <:NUM:>
+142(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/UCSODATA3(Usage:<:NUM:>%)" <:NUM:>
+143(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/ANY DATA(Usage:<:NUM:>%)" <:NUM:>
+144(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/ALM3(Usage:<:NUM:>%)" <:NUM:>
+145(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/ALM4(Usage:<:NUM:>%)" <:NUM:>
+146(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS INDX1(Usage:<:NUM:>%)" <:NUM:>
+147(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/UCSODATA4(Usage:<:NUM:>%)" <:NUM:>
+148(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/RPS DATA3(Usage:<:NUM:>%)" <:NUM:>
+149(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/RPS DATA4(Usage:<:NUM:>%)" <:NUM:>
+150(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/RPS DATA5(Usage:<:NUM:>%)" <:NUM:>
+151(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS1(Usage:<:NUM:>%)" <:NUM:>
+152(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS2(Usage:<:NUM:>%)" <:NUM:>
+153(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS3(Usage:<:NUM:>%)" <:NUM:>
+154(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS4(Usage:<:NUM:>%)" <:NUM:>
+155(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS5(Usage:<:NUM:>%)" <:NUM:>
+156(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS6(Usage:<:NUM:>%)" <:NUM:>
+157(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS7(Usage:<:NUM:>%)" <:NUM:>
+158(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS9(Usage:<:NUM:>%)" <:NUM:>
+159(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/RPS DATA2(Usage:<:NUM:>%)" <:NUM:>
+160(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS3(Usage:<:NUM:>%)" <:NUM:>
+161(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS4(Usage:<:NUM:>%)" <:NUM:>
+162(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS5(Usage:<:NUM:>%)" <:NUM:>
+163(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS6(Usage:<:NUM:>%)" <:NUM:>
+164(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/ALM2(Usage:<:NUM:>%)" <:NUM:>
+165(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS7(Usage:<:NUM:>%)" <:NUM:>
+166(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS8(Usage:<:NUM:>%)" <:NUM:>
+167(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS9(Usage:<:NUM:>%)" <:NUM:>
+168(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS10(Usage:<:NUM:>%)" <:NUM:>
+169(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS11(Usage:<:NUM:>%)" <:NUM:>
+170(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS2(Usage:<:NUM:>%)" <:NUM:>
+171(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS12(Usage:<:NUM:>%)" <:NUM:>
+172(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS DATA2(Usage:<:NUM:>%)" <:NUM:>
+173(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/TRPS DATA2(Usage:<:NUM:>%)" <:NUM:>
+174(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS13(Usage:<:NUM:>%)" <:NUM:>
+175(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oracle/oradata/ORABAT01/IFRS14(Usage:<:NUM:>%)" <:NUM:>
+176(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS DATA3(Usage:<:NUM:>%)" <:NUM:>
+177(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS DATA4(Usage:<:NUM:>%)" <:NUM:>
+178(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS DATA5(Usage:<:NUM:>%)" <:NUM:>
+179(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS DATA6(Usage:<:NUM:>%)" <:NUM:>
+180(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/ORADB01/NEW RPS DATA7(Usage:<:NUM:>%)" <:NUM:>
+181(13): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dbsvr02-/oraData/DBS10(Usage:<:NUM:>%)" <:NUM:>
+183(79): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjebap1a-gc inbank1:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+185(77): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "JEJUBANK-SafeDcoms.exe:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+186(410): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pexadb2a.jejubank.co.kr-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+187(224): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pexadb2a.jejubank.co.kr-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+188(75): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+189(44): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+190(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbap2a-/home(Usage:<:NUM:>%)" <:NUM:>
+191(7): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbap2a-/home(Usage:<:NUM:>%) Cleared" <:NUM:>
+193(43): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjwhws1a-C:(Usage:<:NUM:>%)" <:NUM:>
+194(19): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjwhws1a-C:(Usage:<:NUM:>%) Cleared" <:NUM:>
+203(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb1a-crsd.bin:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+204(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb1a-LISTENER:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+205(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb1a-LISTENER ORASB:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+206(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb1a-ora pmon orasb1:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+213(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-crsd.bin:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+214(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-evmd.bin:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+215(36): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-LISTENER:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+216(36): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-LISTENER ORASB:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+217(36): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-ora pmon orajb2:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+218(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-ora pmon orasb2:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+219(84): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbatap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+224(36): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dsacsv1a-HIWARE-UMS:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+225(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dsacsv1a-HIWARE-AUTH:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+226(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dsacsv1a-HIWARE-API:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+227(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dsacsv1a-HIWARE-BATCH:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+242(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-ohasd.bin:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+243(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbdb2a-ocssd.bin:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+244(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dsacsv1a-mariadb/bin/:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+245(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/ftp/jasan(Usage:<:NUM:>%)" <:NUM:>
+246(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/ftp/dmlist(Usage:<:NUM:>%)" <:NUM:>
+247(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/bi/recv(Usage:<:NUM:>%)" <:NUM:>
+248(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/data/ac/acsokbo(Usage:<:NUM:>%)" <:NUM:>
+249(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-/loadtest(Usage:<:NUM:>%)" <:NUM:>
+250(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/ftp/jasan(Usage:<:NUM:>%) Cleared" <:NUM:>
+251(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/ftp/dmlist(Usage:<:NUM:>%) Cleared" <:NUM:>
+252(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/bi/recv(Usage:<:NUM:>%) Cleared" <:NUM:>
+253(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/loadtest/data/ac/acsokbo(Usage:<:NUM:>%) Cleared" <:NUM:>
+254(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-/loadtest(Usage:<:NUM:>%) Cleared" <:NUM:>
+255(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-/opt(Usage:<:NUM:>%)" <:NUM:>
+256(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-/opt/vormetric/DataSecurityExpert/agent/secfs/.sec(Usage:<:NUM:>%)" <:NUM:>
+257(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-/opt(Usage:<:NUM:>%) Cleared" <:NUM:>
+258(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-/opt/vormetric/DataSecurityExpert/agent/secfs/.sec(Usage:<:NUM:>%) Cleared" <:NUM:>
+259(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "gwsvr01-/jejulib(Usage:<:NUM:>%)" <:NUM:>
+260(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "gwsvr01-/jejulib(Usage:<:NUM:>%) Cleared" <:NUM:>
+261(42): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pacldb1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+262(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjsjp11a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+263(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjsjp11a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+268(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "igniteux-/os bk1(Usage:<:NUM:>%)" <:NUM:>
+269(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/JEJUODS(Usage:<:NUM:>%)" <:NUM:>
+270(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr02-/JEJUODS(Usage:<:NUM:>%) Cleared" <:NUM:>
+271(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "igniteux-/os bk1(Usage:<:NUM:>%) Cleared" <:NUM:>
+274(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbwasv1a-jFlow4.<:NUM:> Daemon:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+275(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbwasv1a-DbwaSchSvr:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+276(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pcordb1a-/mnt(Usage:<:NUM:>%)" <:NUM:>
+279(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pcordb1a-/mnt1(Usage:<:NUM:>%)" <:NUM:>
+281(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-/home(Usage:<:NUM:>%)" <:NUM:>
+282(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-/home(Usage:<:NUM:>%) Cleared" <:NUM:>
+284(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "ssodbsvr-ora pmon ORASSO:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+285(138): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "JEJUBANK-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+286(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "JEJUBANK-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+287(30): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "gwsvr01-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+288(30): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "gwsvr01-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+289(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pumsap1a-/logs(Usage:<:NUM:>%)" <:NUM:>
+290(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pumsap1a-/logs(Usage:<:NUM:>%) Cleared" <:NUM:>
+296(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pcordb2a-/mnt(Usage:<:NUM:>%)" <:NUM:>
+300(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pcordb2a-/oracle/grid/product/19c/bin/ocssd.bin:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+303(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pcordb2a-ora pmon:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+304(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-/backdata(Usage:<:NUM:>%)" <:NUM:>
+305(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "apsvr01-/backdata(Usage:<:NUM:>%) Cleared" <:NUM:>
+306(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "rec2-Y:(Usage:<:NUM:>%)" <:NUM:>
+307(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "rec2-Z:(Usage:<:NUM:>%)" <:NUM:>
+308(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-/bpr(Usage:<:NUM:>%)" <:NUM:>
+309(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap2a-/nbpr(Usage:<:NUM:>%)" <:NUM:>
+310(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-/bpr(Usage:<:NUM:>%)" <:NUM:>
+311(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjbpap1a-/nbpr(Usage:<:NUM:>%)" <:NUM:>
+312(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbap2a-/app(Usage:<:NUM:>%)" <:NUM:>
+313(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbap2a-/app(Usage:<:NUM:>%) Cleared" <:NUM:>
+314(114): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+315(108): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+316(60): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "teaiap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+317(318): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+318(60): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "teaiap1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+319(216): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+320(78): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "teaiap2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+321(78): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "teaiap2a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+322(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "onTuneMaster-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+323(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "onTuneMaster-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+324(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "podsdb1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+325(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "podsdb1a-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+612(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dmobap1a-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+613(270): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "ivrtest-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+614(102): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "ivrtest-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+633(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tfepap1a-/logs(Usage:<:NUM:>%)" <:NUM:>
+634(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tfepap1a-/logs(Usage:<:NUM:>%) Cleared" <:NUM:>
+636(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pumsgw1a-/prod/ohs/wlserver/../ohs/bin/httpd:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+638(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pumsgw2a-/prod/ohs/wlserver/../ohs/bin/httpd:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+649(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv1a-mariadb/bin/:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+650(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv2a-mariadb/bin/:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+651(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv1a-HIWARE-UMS:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+652(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv2a-HIWARE-UMS:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+653(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv1a-HIWARE-AUTH:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+654(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv2a-HIWARE-AUTH:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+655(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv2a-HIWARE-API:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+656(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv1a-HIWARE-API:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+657(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv2a-HIWARE-BATCH:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+658(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv1a-HIWARE-BATCH:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+659(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbtsad1a-/app(Usage:<:NUM:>%)" <:NUM:>
+660(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmbtsad1a-/app(Usage:<:NUM:>%) Cleared" <:NUM:>
+661(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dmobap1a-/app(Usage:<:NUM:>%)" <:NUM:>
+662(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dmobap1a-/app(Usage:<:NUM:>%) Cleared" <:NUM:>
+663(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "igniteux-/os bk2(Usage:<:NUM:>%)" <:NUM:>
+664(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "igniteux-/os bk2(Usage:<:NUM:>%) Cleared" <:NUM:>
+665(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dmobwe1a-/tmp(Usage:<:NUM:>%)" <:NUM:>
+666(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dmobwe1a-/tmp(Usage:<:NUM:>%) Cleared" <:NUM:>
+667(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "igniteux-/(Usage:<:NUM:>%)" <:NUM:>
+669(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjmeap1a-httpd:ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
+670(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "igniteux-/(Usage:<:NUM:>%) Cleared" <:NUM:>
+675(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbaksv2a-/opt(Usage:<:NUM:>%)" <:NUM:>
+676(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pbaksv2a-/opt(Usage:<:NUM:>%) Cleared" <:NUM:>
+677(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dcordb1a-/dawork(Usage:<:NUM:>%)" <:NUM:>
+678(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "dcordb1a-/dawork(Usage:<:NUM:>%) Cleared" <:NUM:>
+683(12): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjebtsap1a-/sw(Usage:<:NUM:>%)" <:NUM:>
+684(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tbnkap1a-/home(Usage:<:NUM:>%)" <:NUM:>
+685(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tbnkap1a-/home(Usage:<:NUM:>%) Cleared" <:NUM:>
+686(36): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap2a-/logs/app(Usage:<:NUM:>%)" <:NUM:>
+687(30): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap2a-/logs/app(Usage:<:NUM:>%) Cleared" <:NUM:>
+688(48): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap1a-/logs/app(Usage:<:NUM:>%)" <:NUM:>
+689(42): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "tcorap1a-/logs/app(Usage:<:NUM:>%) Cleared" <:NUM:>
+691(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv2a-/hiware6/dbms/log(Usage:<:NUM:>%)" <:NUM:>
+692(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "psacsv2a-/hiware6/dbms/log(Usage:<:NUM:>%) Cleared" <:NUM:>
+693(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjlaml1a-/home(Usage:<:NUM:>%)" <:NUM:>
+694(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjlaml1a-/home(Usage:<:NUM:>%) Cleared" <:NUM:>
+695(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "jjebtsap1a-/sw(Usage:<:NUM:>%) Cleared" <:NUM:>
+700(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "webdisk-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+701(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "webdisk-CPU(User+Sys%):<:NUM:>(Threshold:<:NUM:>) Cleared" <:NUM:>
+702(24): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "rmobdb1a-Memory Used(Comp%):<:NUM:>(Threshold:<:NUM:>)" <:NUM:>
+707(18): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "daudap1a-/prod(Usage:<:NUM:>%)" <:NUM:>
+708(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "daudap1a-/prod(Usage:<:NUM:>%) Cleared" <:NUM:>
+714(6): : "D:\onTune\onTuneEvent\EventSMSsender new\EventSmsSender.exe" <:NUM:> "pscmap1a-ecams mgr :ProcessCount <:NUM:>(OK,Required <:NUM:>~<:NUM:>) Cleared" <:NUM:>
