@@ -9,3 +9,4 @@ inference/
 report/
 config/Setting.yaml
 *.bat
+output/
